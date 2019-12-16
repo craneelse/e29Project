@@ -3,4 +3,4 @@ import pytest
 
 from pytest_bdd import scenarios
 # Scenarios
-scenarios('../../features')
+scenarios('../../features/marketwatch.feature')

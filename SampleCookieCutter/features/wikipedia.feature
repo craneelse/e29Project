@@ -1,6 +1,15 @@
-Feature: Sample Search
+@web @yahoo
+Feature: Yahoo prices Download
+  As a web surfer,
+  I want to find information online,
+  So I can learn new things and get tasks done.
 
-  Scenario Outline: Sample Search
+  # The "@" annotations are tags
+  # One feature can have multiple scenarios
+  # The lines immediately after the feature title are just comments
+
+
+  Scenario Outline: Basic IMDB search
     Given go to https://www.wikipedia.org/
     When the user finds element with name - search
     And the user enters <phrase> in element
