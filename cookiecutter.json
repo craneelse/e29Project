@@ -5,7 +5,7 @@
 	"repo_name" : "{{ cookiecutter.project_name }}_repo",
      "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "project_short_description": "A short description of the project",
-    "feature_file":"name of the feature file",
+    "feature_file":"sample",
 	"input_data_file": "location of the input data file",
 	"release_date": "{% now 'local' %}",
     "version": "0.1.0"
