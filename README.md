@@ -13,7 +13,7 @@ This makes it easy for the application for a non-programmer to write a quick scr
 
 
 <b>Pre-requisites</b>
- 1) Install pipenv on your python environmet
+ 1) Install pipenv on your python enviroment
  2) Add the folder containing chromedriver.exe to PATH variable( chromedriver.exe is present under the bin directory of the generated template project)
  
  
