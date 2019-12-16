@@ -57,7 +57,9 @@ This makes it easy for the application for a non-programmer to write a quick scr
   </pre>
   
   $cd SampleCookieCutter
+  
   $set PATH=$PATH:./bin
+  
   $pytest
 
   
