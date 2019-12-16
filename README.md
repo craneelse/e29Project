@@ -1,8 +1,8 @@
 # Webscrapping using pytest-bdd and cookiecutter
 
 
-The project is an attempt at a framework which can be used to quickly write scripts to scrape websites.
-To make it easier for non programmers, most of the scripting is already coded into the generated project and they would only be interacting with 'feature' files, which take scripts written natural language.
+The project is an attempt at creating a framework which can be used to quickly write scripts to scrape websites.
+To make it easier for non programmers, most of the scripting is already coded into the generated project and they would only be interacting with 'feature' files, which take input from files written natural language.
 
 To make this possible, I am using cucumber based framework pytest-bdd which handles natural language to code translation using step definitions. Language phrases are mapped to specific methods using annotations like '@Given', '@Then' etc.
 I use cookiecutter to use existing feature file templates and embedd input data (csv) into the feature file. 
@@ -62,4 +62,5 @@ This makes it easy for the application for a non-programmer to write a quick scr
   
   $pytest
 
-  
+On running the above scripts, you would see chrome opening and closing to get the prices for the list of symbols listed in the feature file. All the data is then stored into data/output.csv file
+
