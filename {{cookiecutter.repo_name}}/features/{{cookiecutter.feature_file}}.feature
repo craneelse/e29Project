@@ -12,4 +12,4 @@ Feature: Sample Feature
 
 
     Examples:
-       | phrase |
+	   <input_data_txt>
